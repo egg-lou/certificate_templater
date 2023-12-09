@@ -3,5 +3,4 @@ cert.html
 certibg.svg
 counter.txt
 data.json
-main.py
-requirements.txt
+certificates/
