@@ -7,8 +7,8 @@
             align-items: center;
             margin: 0;
             padding: 0;
-            width: 2200px;
-            height: 1700px;
+            width: 4000px;
+            height: 3091px;
         }
         .container{
             width: 2200px;
@@ -19,22 +19,22 @@
         }
         .deets-cont{
             position: absolute;
-            width: 2190px;
-            height: 1690px;
+            width: 4000px;
+            height: 3091px;
             display:flex;
             align-items: center;
             justify-content: center;
         }
         h3{
-            font-size: 8rem;
+            font-size: 13rem;
             color: #210D42;
             text-shadow: 2px 2px 2px 5px #210D42;
             position: absolute;
             text-align: center;
-            top: 35%;
+            top: 32%;
         }
         .id{
-            font-size: 25px;
+            font-size: 3rem;
             color: white;
             position: absolute;
             text-align: center;
@@ -46,15 +46,35 @@
         img{
             width: auto;
         }
+
+        p {
+            font-size: 5rem;
+            color: #210D42;
+            text-shadow: 2px 2px 2px 5px #210D42;
+            position: absolute;
+            text-align: center;
+            top: 53%;
+            width: 65%;
+            left: 18%;
+        }
+        
+        .purple{
+            color: #210D42;
+            text-shadow: 2px 2px 2px 5px #210D42;
+            font-weight: bolder;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="#" alt="">
+        <img src="https://github.com/egg-lou/certificate_templater/blob/main/certificate-assets/certi.png?raw=true" alt="">
     </div>
     <div class="deets-cont">
         <h3>{{ name }}</h3>
         <h5 class="id">{{ certID }}</h5>
+        <p>
+            Hello this is to congratulate <span class="purple">everyone</span> that has attendend successfully the event and we are very proud of you
+        </p>
     </div>
     <div>
     </div>

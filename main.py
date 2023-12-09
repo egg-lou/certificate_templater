@@ -2,7 +2,7 @@ import csv
 import os
 from html2image import Html2Image
 
-hti = Html2Image(size=(2198, 1704))
+hti = Html2Image(size=(4000, 3091))
 
 csv_filename = 'main.csv'
 cert_html_filename = 'certificate.html'
